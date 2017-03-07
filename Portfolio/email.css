@@ -1,0 +1,8 @@
+body{
+	background-color: #191a00;
+	color: #dbdbbd;
+	font-family: sans-serif;
+}
+input[type="text"],[type="email"], select{
+	color: black;
+}

@@ -1,0 +1,31 @@
+body{
+	background-color:#191a00;
+	color: #dbdbbd;
+	font-family: sans-serif;
+}
+#White{
+	color: #331a00;
+}
+.Black{color: #191a00;}
+.Dark{
+	background-color: #191a00;
+}
+#Right{
+	text-align: right;
+}
+#Visima{background-color: #191a00;
+	color: #dbdbbd;
+	height: 500;
+}
+.font{
+	font-family: serif;
+}
+#font{
+	font-family: serif;
+}
+.nyoka{
+	padding-top: 5%;
+}
+.about{
+	font-family: serif;
+}

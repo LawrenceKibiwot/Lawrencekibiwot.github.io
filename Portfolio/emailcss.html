@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>eMail Me</title>
+	 	 <link rel="stylesheet" href="../Resources/bootstrap/css/bootstrap.min.css">
+		<script type="text/javascript" src="../Resources/jquery.js"></script>
+  		<script src="../Resources/Bootstrap/js/bootstrap.min.js"></script>
+ 		 <link rel="stylesheet" type="text/css" href="email.css">  
+ 		   <link rel="icon" type="image" href="../Resources/Images/Lawrence.ico">
+
+</head>
+<body>
+	<div class="container">
+	<div class="row">
+	<div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
+		<img src="../Resources/Images/css.png">
+	</div>	
+	<div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
+		<form action="MAILTO:biwotlawrence@gmail.com" method="POST" enctype="text/plain">
+			<legend>
+			<h1 style="color: white">
+				Email me!
+			</h1>
+			</legend>
+				<fieldset>
+				<p>
+					<LABEL>
+						Name:<input type="text" name="name" placeholder="Please input your name." title="Input name.">
+					</LABEL>
+				</p>
+				<p>
+					Your eMail:
+					<input type="email" name="email" placeholder="Enter your email.">
+				</p>
+				<p>
+					<label>
+						Language: 
+						<select name="Language">
+							<option value="HTML">HTML</option>
+							<option value="CSS">CSS</option>
+							<option value="Bootstrap">Bootstrap</option>
+							<option value="PHP">PHP</option>
+							<option value="javascript">Javascript</option>
+							<option value="MySql">MySql</option>
+						</select>
+					</label>
+					</p>
+					<p>
+					<label>
+						Specification:<br><br>
+						<textarea rows="10" cols="40" style="color: black;" placeholder="Enter your site Specifications.">			
+						</textarea>
+					</label>
+				</p>
+				<br>
+				<br>
+				<button type="submit" value="send" style="color: black" class="btn btn-primary btn-block">
+					Send email.
+				</button>
+				</fieldset>
+		</form>
+				</div>
+		</div>
+		</div>
+	</div>
+</body>
+</html>
